@@ -2,9 +2,6 @@
 
 [![Tests][badge-tests]][link-tests]
 [![Documentation][badge-docs]][link-docs]
-
-test modification
-
 [badge-tests]: https://img.shields.io/github/workflow/status/your_github_username/project-name/Test/main
 [link-tests]: https://github.com/your_github_username/project-name/actions/workflows/test.yml
 [badge-docs]: https://img.shields.io/readthedocs/project-name
