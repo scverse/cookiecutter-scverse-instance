@@ -5,17 +5,14 @@ requires = ["hatchling"]
 
 [project]
 name = "project_name"
-version = "0.0.1"
-authors = [
-    {name = "Your Name"},
-]
-maintainers = [
-    {name = "Your Name", email = "yourname@example.com"},
-]
+dynamic = ["version"]
 description = "A very interesting piece of code"
 readme = "README.md"
-license = {file = "LICENSE"}
 requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Your Name", email = "yourname@example.com"},
+]
 urls.Documentation = "https://project-name.readthedocs.io/"
 urls.Source = "https://github.com/your_github_username/project-name"
 urls.Home-page = "https://github.com/your_github_username/project-name"
@@ -40,6 +37,9 @@ test = [
     "pytest",
     "pytest-cov",
 ]
+
+[tool.hatch.version]
+path = "src/project_name/__init__.py"
 
 [tool.coverage.run]
 source = ["project_name"]
