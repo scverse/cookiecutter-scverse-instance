@@ -49,7 +49,6 @@ If you found a bug, please use the [issue tracker][issue-tracker].
 > t.b.a
 
 [scverse-discourse]: https://discourse.scverse.org/
-
 [issue-tracker]: https://github.com/your_github_username/project-name/issues
 [changelog]: https://project-name.readthedocs.io/latest/changelog.html
 [link-docs]: https://project-name.readthedocs.io
