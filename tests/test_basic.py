@@ -1,10 +1,10 @@
 import pytest
 
-import {{ cookiecutter.project_name|lower|replace('-', '_') }}
+import cookiecutter_scverse_instance
 
 
 def test_package_has_version():
-    {{ cookiecutter.project_name|lower|replace('-', '_') }}.__version__
+    cookiecutter_scverse_instance.__version__
 
 
 @pytest.mark.skip(reason="This decorator should be removed when test passes.")

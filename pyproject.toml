@@ -7,7 +7,7 @@ requires = [
 
 
 [project]
-name = "{{ cookiecutter.project_name|lower|replace('-', '_') }}"
+name = "cookiecutter_scverse_instance"
 description = "An example repo generated from the `cookiecutter-scverse` template. Feel free to look around this repo and check out the docs to find out if the template works for you!"
 authors = [
     {name = "scverse community"},
@@ -45,7 +45,7 @@ test = [
 ]
 
 [tool.coverage.run]
-source = ["{{ cookiecutter.project_name|lower|replace('-', '_') }}"]
+source = ["cookiecutter_scverse_instance"]
 omit = [
     "**/test_*.py",
 ]
