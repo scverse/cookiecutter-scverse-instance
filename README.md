@@ -1,12 +1,13 @@
-# project-name
+# cookiecutter-scverse-instance
 
 [![Tests][badge-tests]][link-tests]
 [![Documentation][badge-docs]][link-docs]
-[badge-tests]: https://img.shields.io/github/workflow/status/your_github_username/project-name/Test/main
-[link-tests]: https://github.com/your_github_username/project-name/actions/workflows/test.yml
-[badge-docs]: https://img.shields.io/readthedocs/project-name
 
-A very interesting piece of code
+[badge-tests]: https://img.shields.io/github/workflow/status/scverse/cookiecutter-scverse-instance/Test/main
+[link-tests]: https://github.com/scverse/cookiecutter-scverse-instance/actions/workflows/test.yml
+[badge-docs]: https://img.shields.io/readthedocs/cookiecutter-scverse-instance
+
+An example repo generated from the `cookiecutter-scverse` template. Feel free to look around this repo and check out the docs to find out if the template works for you!
 
 ## Getting started
 
@@ -19,20 +20,20 @@ Please refer to the [documentation][link-docs]. In particular, the
 You need to have Python 3.8 or newer installed on your system. If you don't have
 Python installed, we recommend installing `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`\_.
 
-There are several alternative options to install project-name:
+There are several alternative options to install cookiecutter-scverse-instance:
 
 <!--
-1) Install the latest release of `project-name` from `PyPI <https://pypi.org/project/project-name/>`_:
+1) Install the latest release of `cookiecutter-scverse-instance` from `PyPI <https://pypi.org/project/cookiecutter-scverse-instance/>`_:
 
 ```bash
-pip install project-name
+pip install cookiecutter-scverse-instance
 ```
 -->
 
 1. Install the latest development version:
 
 ```bash
-pip install git+https://github.com/your_github_username/project-name.git@main
+pip install git+https://github.com/scverse/cookiecutter-scverse-instance.git@main
 ```
 
 ## Release notes
@@ -49,7 +50,7 @@ If you found a bug, please use the [issue tracker][issue-tracker].
 > t.b.a
 
 [scverse-discourse]: https://discourse.scverse.org/
-[issue-tracker]: https://github.com/your_github_username/project-name/issues
-[changelog]: https://project-name.readthedocs.io/latest/changelog.html
-[link-docs]: https://project-name.readthedocs.io
-[link-api]: https://project-name.readthedocs.io/latest/api.html
+[issue-tracker]: https://github.com/scverse/cookiecutter-scverse-instance/issues
+[changelog]: https://cookiecutter-scverse-instance.readthedocs.io/latest/changelog.html
+[link-docs]: https://cookiecutter-scverse-instance.readthedocs.io
+[link-api]: https://cookiecutter-scverse-instance.readthedocs.io/latest/api.html
