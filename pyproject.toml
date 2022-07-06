@@ -11,6 +11,9 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
 authors = [
+    {name = "scverse community"},
+]
+maintainers = [
     {name = "scverse community", email = "core-team@scverse.org"},
 ]
 urls.Documentation = "https://cookiecutter-scverse-instance.readthedocs.io/"
