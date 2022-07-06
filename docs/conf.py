@@ -16,7 +16,7 @@ sys.path.insert(0, str(HERE / "extensions"))
 
 # -- Project information -----------------------------------------------------
 
-info = metadata("project-name")
+info = metadata("cookiecutter-scverse-instance")
 project = info["Name"]
 author = info["Author"]
 copyright = f"{datetime.now():%Y}, {author}."
@@ -32,7 +32,7 @@ needs_sphinx = "4.0"
 
 html_context = {
     "display_github": True,  # Integrate GitHub
-    "github_user": "your_github_username",  # Username
+    "github_user": "scverse",  # Username
     "github_repo": project,  # Repo name
     "github_version": "main",  # Version
     "conf_py_path": "/docs/",  # Path in the checkout to the docs root

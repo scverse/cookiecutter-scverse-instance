@@ -1,10 +1,10 @@
 import pytest
 
-import project_name
+import cookiecutter_scverse_instance
 
 
 def test_package_has_version():
-    project_name.__version__
+    cookiecutter_scverse_instance.__version__
 
 
 @pytest.mark.skip(reason="This decorator should be removed when test passes.")
