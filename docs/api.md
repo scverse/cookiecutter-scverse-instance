@@ -3,8 +3,8 @@
 ## Preprocessing
 
 ```{eval-rst}
-.. module:: project_name.pp
-.. currentmodule:: project_name
+.. module:: cookiecutter_scverse_instance.pp
+.. currentmodule:: cookiecutter_scverse_instance
 
 .. autosummary::
     :toctree: generated
@@ -15,8 +15,8 @@
 ## Tools
 
 ```{eval-rst}
-.. module:: project_name.tl
-.. currentmodule:: project_name
+.. module:: cookiecutter_scverse_instance.tl
+.. currentmodule:: cookiecutter_scverse_instance
 
 .. autosummary::
     :toctree: generated
@@ -27,8 +27,8 @@
 ## Plotting
 
 ```{eval-rst}
-.. module:: project_name.pl
-.. currentmodule:: project_name
+.. module:: cookiecutter_scverse_instance.pl
+.. currentmodule:: cookiecutter_scverse_instance
 
 .. autosummary::
     :toctree: generated

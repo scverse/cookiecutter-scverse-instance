@@ -1,5 +1,5 @@
 name: Feature request
-description: Propose a new feature for project-name
+description: Propose a new feature for cookiecutter-scverse-instance
 labels: enhancement
 body:
     - type: textarea

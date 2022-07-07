@@ -7,22 +7,26 @@ requires = [
 
 
 [project]
-name = "project_name"
-description = "A very interesting piece of code"
+name = "cookiecutter_scverse_instance"
+description = "An example repo generated from the `cookiecutter-scverse` template. Feel free to look around this repo and check out the docs to find out if the template works for you!"
 authors = [
-    {name = "Your Name"},
+    {name = "scverse community"},
 ]
 maintainers = [
-    {name = "Your Name", email = "yourname@example.com"},
+    {name = "scverse community", email = "core-team@scverse.org"},
 ]
-urls.Documentation = "https://project-name.readthedocs.io/"
-urls.Source = "https://github.com/your_github_username/project-name"
-urls.Home-page = "https://github.com/your_github_username/project-name"
+urls.Documentation = "https://cookiecutter-scverse-instance.readthedocs.io/"
+urls.Source = "https://github.com/scverse/cookiecutter-scverse-instance"
+urls.Home-page = "https://github.com/scverse/cookiecutter-scverse-instance"
 version = "0.0.1"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
 readme = "README.md"
-dependencies = ["anndata"]
+dependencies = [
+    "anndata",
+    # for debug logging (referenced from the issue template)
+    "session-info"
+]
 
 [project.optional-dependencies]
 dev = [
@@ -45,7 +49,7 @@ test = [
 ]
 
 [tool.coverage.run]
-source = ["project_name"]
+source = ["cookiecutter_scverse_instance"]
 omit = [
     "**/test_*.py",
 ]
