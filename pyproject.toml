@@ -46,7 +46,7 @@ test = [
 ]
 
 [tool.coverage.run]
-source = ["cookiecutter_scverse_instance"]
+source = ["src"]
 omit = [
     "**/test_*.py",
 ]
