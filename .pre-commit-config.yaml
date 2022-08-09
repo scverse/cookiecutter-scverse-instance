@@ -18,17 +18,12 @@ repos:
       rev: v1.12.1
       hooks:
           - id: blacken-docs
-    - repo: https://github.com/pre-commit/mirrors-autopep8
-      rev: v1.6.0
-      hooks:
-          - id: autopep8
-            args: [-i]
     - repo: https://github.com/PyCQA/isort
       rev: 5.10.1
       hooks:
           - id: isort
     - repo: https://github.com/asottile/yesqa
-      rev: v1.3.0
+      rev: v1.4.0
       hooks:
           - id: yesqa
             additional_dependencies:
@@ -58,7 +53,7 @@ repos:
                 - --remove-unused-variable
                 - --ignore-init-module-imports
     - repo: https://github.com/PyCQA/flake8
-      rev: 4.0.1
+      rev: 5.0.4
       hooks:
           - id: flake8
             additional_dependencies:
@@ -69,7 +64,7 @@ repos:
                 - flake8-bugbear
                 - flake8-blind-except
     - repo: https://github.com/asottile/pyupgrade
-      rev: v2.34.0
+      rev: v2.37.3
       hooks:
           - id: pyupgrade
             args: [--py3-plus, --py38-plus, --keep-runtime-typing]
