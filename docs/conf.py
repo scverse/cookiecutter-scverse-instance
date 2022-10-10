@@ -24,7 +24,7 @@ sys.path.insert(0, str(HERE / "extensions"))
 
 project_name = "cookiecutter-scverse-instance"
 info = metadata(project_name)
-package_name = info["Name"]
+package_name = "cookiecutter_scverse_instance"
 author = info["Author"]
 copyright = f"{datetime.now():%Y}, {author}."
 version = info["Version"]
