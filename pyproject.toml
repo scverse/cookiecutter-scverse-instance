@@ -19,7 +19,11 @@ maintainers = [
 urls.Documentation = "https://cookiecutter-scverse-instance.readthedocs.io/"
 urls.Source = "https://github.com/scverse/cookiecutter-scverse-instance"
 urls.Home-page = "https://github.com/scverse/cookiecutter-scverse-instance"
-dependencies = ["anndata"]
+dependencies = [
+    "anndata",
+    # for debug logging (referenced from the issue template)
+    "session-info"
+]
 
 [project.optional-dependencies]
 dev = [
