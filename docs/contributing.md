@@ -20,7 +20,7 @@ pip install -e ".[dev,test,doc]"
 ## Code-style
 
 This template uses [pre-commit][] to enforce consistent code-styles. On every commit, pre-commit checks will either
-automatically fix issues with the code, or raise an error message. See [pre-commit checks](developer_docs.md#pre-commit-checks) for
+automatically fix issues with the code, or raise an error message. See [pre-commit checks](template_usage.md#pre-commit-checks) for
 a full list of checks enabled for this repository.
 
 To enable pre-commit locally, simply run
@@ -41,6 +41,7 @@ git pull --rebase
 ```
 
 to integrate the changes into yours.
+While the [pre-commit.ci][] is useful, we strongly encourage installing and running pre-commit locally first to understand its usage.
 
 Finally, most editors have an _autoformat on save_ feature. Consider enabling this option for [black][black-editors]
 and [prettier][prettier-editors].
@@ -173,7 +174,7 @@ open _build/html/index.html
 <!-- Links -->
 
 [scanpy developer guide]: https://scanpy.readthedocs.io/en/latest/dev/index.html
-[cookiecutter-scverse-instance]: https://cookiecutter-scverse-instance.readthedocs.io/en/latest/developer_docs.html
+[cookiecutter-scverse-instance]: https://cookiecutter-scverse-instance.readthedocs.io/en/latest/template_usage.html
 [github quickstart guide]: https://docs.github.com/en/get-started/quickstart/create-a-repo?tool=webui
 [codecov]: https://about.codecov.io/sign-up/
 [codecov docs]: https://docs.codecov.com/docs
