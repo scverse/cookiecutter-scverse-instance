@@ -3,7 +3,7 @@
 [![Tests][badge-tests]][link-tests]
 [![Documentation][badge-docs]][link-docs]
 
-[badge-tests]: https://img.shields.io/github/workflow/status/scverse/cookiecutter-scverse-instance/Test/main
+[badge-tests]: https://img.shields.io/github/actions/workflow/status/scverse/cookiecutter-scverse-instance/test.yaml?branch=main
 [link-tests]: https://github.com/scverse/cookiecutter-scverse-instance/actions/workflows/test.yml
 [badge-docs]: https://img.shields.io/readthedocs/cookiecutter-scverse-instance
 
