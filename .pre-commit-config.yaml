@@ -21,7 +21,7 @@ repos:
             # https://github.com/jupyterlab/jupyterlab/issues/12675
             language_version: "17.9.1"
     - repo: https://github.com/charliermarsh/ruff-pre-commit
-      rev: v0.0.250
+      rev: v0.0.251
       hooks:
           - id: ruff
             args: [--fix, --exit-non-zero-on-fix]
@@ -39,11 +39,6 @@ repos:
             args: [--fix=lf]
           - id: trailing-whitespace
           - id: check-case-conflict
-    - repo: https://github.com/asottile/pyupgrade
-      rev: v3.3.1
-      hooks:
-          - id: pyupgrade
-            args: [--py3-plus, --py38-plus, --keep-runtime-typing]
     - repo: local
       hooks:
           - id: forbid-to-commit
