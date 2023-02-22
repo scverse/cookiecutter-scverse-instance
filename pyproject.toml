@@ -2,7 +2,6 @@
 build-backend = "hatchling.build"
 requires = ["hatchling"]
 
-
 [project]
 name = "cookiecutter-scverse-instance"
 version = "0.0.1"
@@ -114,7 +113,6 @@ ignore = [
 "docs/*" = ["I"]
 "tests/*" = ["D"]
 "*/__init__.py" = ["F401"]
-
 
 [tool.jupytext]
 formats = "ipynb,md"
