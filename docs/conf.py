@@ -30,7 +30,7 @@ repository_url = urls["Source"]
 release = info["Version"]
 
 # Opengraph information: https://sphinxext-opengraph.readthedocs.io/
-ogp_site_url = "https://cookiecutter-scverse-instance.readthedocs.io/"
+ogp_site_url = urls["Documentation"]
 ogp_enable_meta_description = True
 
 bibtex_bibfiles = ["references.bib"]
