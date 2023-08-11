@@ -8,13 +8,9 @@ version = "0.0.1"
 description = "An example repo generated from the `cookiecutter-scverse` template. Feel free to look around this repo and check out the docs to find out if the template works for you!"
 readme = "README.md"
 requires-python = ">=3.9"
-license = {file = "LICENSE"}
-authors = [
-    {name = "scverse community"},
-]
-maintainers = [
-    {name = "scverse community", email = "core-team@scverse.org"},
-]
+license = { file = "LICENSE" }
+authors = [{ name = "scverse community"}]
+maintainers = [{ name = "scverse community", email = "core-team@scverse.org" }]
 urls.Documentation = "https://cookiecutter-scverse-instance.readthedocs.io/"
 urls.Source = "https://github.com/scverse/cookiecutter-scverse-instance"
 urls.Home-page = "https://github.com/scverse/cookiecutter-scverse-instance"
@@ -43,22 +39,17 @@ doc = [
     "ipython",
     "sphinx-copybutton",
 ]
-test = [
-    "pytest",
-    "pytest-cov",
-]
+test = ["pytest", "pytest-cov"]
 
 [tool.coverage.run]
 source = ["cookiecutter_scverse_instance"]
-omit = [
-    "**/test_*.py",
-]
+omit = ["**/test_*.py"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 xfail_strict = true
 addopts = [
-    "--import-mode=importlib",  # allow using test files with same name
+    "--import-mode=importlib", # allow using test files with same name
 ]
 
 [tool.black]
@@ -68,17 +59,17 @@ line-length = 120
 src = ["src"]
 line-length = 120
 select = [
-    "F",  # Errors detected by Pyflakes
-    "E",  # Error detected by Pycodestyle
-    "W",  # Warning detected by Pycodestyle
-    "I",  # isort
-    "D",  # pydocstyle
-    "B",  # flake8-bugbear
-    "TID",  # flake8-tidy-imports
-    "C4",  # flake8-comprehensions
-    "BLE",  # flake8-blind-except
-    "UP",  # pyupgrade
-    "RUF100",  # Report unused noqa directives
+    "F",      # Errors detected by Pyflakes
+    "E",      # Error detected by Pycodestyle
+    "W",      # Warning detected by Pycodestyle
+    "I",      # isort
+    "D",      # pydocstyle
+    "B",      # flake8-bugbear
+    "TID",    # flake8-tidy-imports
+    "C4",     # flake8-comprehensions
+    "BLE",    # flake8-blind-except
+    "UP",     # pyupgrade
+    "RUF100", # Report unused noqa directives
 ]
 ignore = [
     # line too long -> we accept long comment lines; black gets rid of long code lines
@@ -125,5 +116,5 @@ skip = [
     "docs/changelog.md",
     "docs/references.bib",
     "docs/references.md",
-    "docs/notebooks/example.ipynb"
+    "docs/notebooks/example.ipynb",
 ]
