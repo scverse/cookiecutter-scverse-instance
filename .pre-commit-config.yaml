@@ -25,10 +25,14 @@ repos:
         # https://github.com/jupyterlab/jupyterlab/issues/12675
         language_version: "17.9.1"
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.0.282
+    rev: v0.0.284
     hooks:
       - id: ruff
         args: [--fix, --exit-non-zero-on-fix]
+  - repo: https://github.com/ComPWA/mirrors-taplo
+    rev: v0.8.1
+    hooks:
+      - id: taplo-docker
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
