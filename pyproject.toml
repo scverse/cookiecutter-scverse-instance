@@ -44,7 +44,7 @@ doc = [
 ]
 test = [
     "pytest",
-    "pytest-cov",
+    "coverage",
 ]
 
 [tool.coverage.run]
