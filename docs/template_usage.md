@@ -138,8 +138,7 @@ If your repository is private, you will have to specify an additional token in t
     - name: Upload coverage
       uses: codecov/codecov-action@v3
       with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-    ```
+          token: ${{ secrets.CODECOV_TOKEN }}    ```
 7. Go back to github `Actions` page an re-run previously failed jobs.
 
 ### Documentation on _readthedocs_

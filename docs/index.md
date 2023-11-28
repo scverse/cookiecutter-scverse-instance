@@ -8,8 +8,7 @@
 
 api.md
 changelog.md
-template_usage.md
-contributing.md
+template_usage.mdcontributing.md
 references.md
 
 notebooks/example
