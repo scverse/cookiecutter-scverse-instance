@@ -21,13 +21,13 @@ urls.Home-page = "https://github.com/scverse/cookiecutter-scverse-instance"
 dependencies = [
     "anndata",
     # for debug logging (referenced from the issue template)
-    "session-info"
+    "session-info",
 ]
 
 [project.optional-dependencies]
 dev = [
     "pre-commit",
-    "twine>=4.0.2"
+    "twine>=4.0.2",
 ]
 doc = [
     "docutils>=0.8,!=0.18.*,!=0.19.*",
@@ -61,9 +61,6 @@ addopts = [
     "--import-mode=importlib",  # allow using test files with same name
 ]
 
-[tool.black]
-line-length = 120
-
 [tool.ruff]
 src = ["src"]
 line-length = 120
@@ -81,7 +78,7 @@ select = [
     "RUF100",  # Report unused noqa directives
 ]
 ignore = [
-    # line too long -> we accept long comment lines; black gets rid of long code lines
+    # line too long -> we accept long comment lines; formatter gets rid of long code lines
     "E501",
     # Do not assign a lambda expression, use a def -> lambda expression assignments are convenient
     "E731",
@@ -107,6 +104,10 @@ ignore = [
     # We want docstrings to start immediately after the opening triple quote
     "D213",
 ]
+extend-include = ["*.ipynb"]
+
+[tool.ruff.format]
+docstring-code-format = true
 
 [tool.ruff.pydocstyle]
 convention = "numpy"
@@ -125,5 +126,5 @@ skip = [
     "docs/changelog.md",
     "docs/references.bib",
     "docs/references.md",
-    "docs/notebooks/example.ipynb"
+    "docs/notebooks/example.ipynb",
 ]
