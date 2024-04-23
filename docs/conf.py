@@ -39,7 +39,7 @@ html_context = {
     "github_user": "scverse",
     "github_repo": "https://github.com/scverse/cookiecutter-scverse-instance",
     "github_version": "main",
-    "conf_py_path": "/docs/",  # Path in the checkout to the docs root
+    "conf_py_path": "/docs/",
 }
 
 # -- General configuration ---------------------------------------------------
