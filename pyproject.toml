@@ -7,7 +7,7 @@ name = "cookiecutter-scverse-instance"
 version = "0.0.1"
 description = "An example repo generated from the `cookiecutter-scverse` template. Feel free to look around this repo and check out the docs to find out if the template works for you!"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = {file = "LICENSE"}
 authors = [
     {name = "scverse community"},
