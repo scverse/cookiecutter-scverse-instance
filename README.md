@@ -23,7 +23,7 @@ Python installed, we recommend installing [Mambaforge](https://github.com/conda-
 There are several alternative options to install cookiecutter-scverse-instance:
 
 <!--
-1) Install the latest release of `cookiecutter-scverse-instance` from `PyPI <https://pypi.org/project/cookiecutter-scverse-instance/>`_:
+1) Install the latest release of `cookiecutter-scverse-instance` from [PyPI][link-pypi]:
 
 ```bash
 pip install cookiecutter-scverse-instance
@@ -54,3 +54,4 @@ If you found a bug, please use the [issue tracker][issue-tracker].
 [changelog]: https://cookiecutter-scverse-instance.readthedocs.io/latest/changelog.html
 [link-docs]: https://cookiecutter-scverse-instance.readthedocs.io
 [link-api]: https://cookiecutter-scverse-instance.readthedocs.io/latest/api.html
+[link-pypi]: https://pypi.org/project/cookiecutter-scverse-instance
