@@ -429,7 +429,7 @@ tooling and automated template updates. This requires some manual work though. H
 
     ```bash
     mkdir template && cd template
-    cruft create cruft create https://github.com/scverse/cookiecutter-scverse
+    cruft create https://github.com/scverse/cookiecutter-scverse
     ```
 
 4. remove everything from the existing repo
@@ -455,8 +455,6 @@ tooling and automated template updates. This requires some manual work though. H
    needed anymore and manually merge files where required.
 
 7. Commit your changes. Merge the `cookiecutteriz` branch into the main branch, e.g. by making a pull request.
-
-
 
 <!-- Links -->
 
