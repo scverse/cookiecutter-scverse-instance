@@ -7,10 +7,14 @@ name = "cookiecutter-scverse-instance"
 version = "0.0.1"
 description = "An example repo generated from the `cookiecutter-scverse` template. Feel free to look around this repo and check out the docs to find out if the template works for you!"
 readme = "README.md"
-requires-python = ">=3.9"
-license = { file = "LICENSE" }
-authors = [{ name = "scverse community" }]
-maintainers = [{ name = "scverse community", email = "core-team@scverse.org" }]
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+    {name = "scverse community"},
+]
+maintainers = [
+    {name = "scverse community", email = "core-team@scverse.org"},
+]
 urls.Documentation = "https://cookiecutter-scverse-instance.readthedocs.io/"
 urls.Source = "https://github.com/scverse/cookiecutter-scverse-instance"
 urls.Home-page = "https://github.com/scverse/cookiecutter-scverse-instance"
@@ -26,8 +30,9 @@ doc = [
     "docutils>=0.8,!=0.18.*,!=0.19.*",
     "sphinx>=4",
     "sphinx-book-theme>=1.0.0",
-    "myst-nb",
+    "myst-nb>=1.1.0",
     "sphinxcontrib-bibtex>=1.0.0",
+    "setuptools",  # Until pybtex >0.23.0 releases: https://bitbucket.org/pybtex-devs/pybtex/issues/169/
     "sphinx-autodoc-typehints",
     "sphinxext-opengraph",
     # For notebooks
@@ -86,7 +91,7 @@ ignore = [
     "D107",
     # Errors from function calls in argument defaults. These are fine when the result is immutable.
     "B008",
-    # __magic__ methods are are often self-explanatory, allow missing docstrings
+    # __magic__ methods are often self-explanatory, allow missing docstrings
     "D105",
     # first line should end with a period [Bug: doesn't work with single-line docstrings]
     "D400",
