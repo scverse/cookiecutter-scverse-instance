@@ -9,8 +9,8 @@ description = "An example repo generated from the `cookiecutter-scverse` templat
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
-authors = [ {name = "scverse community"} ]
-maintainers = [ {name = "scverse community", email = "core-team@scverse.org"} ]
+authors = [{ name = "scverse community" }]
+maintainers = [{ name = "scverse community", email = "core-team@scverse.org" }]
 urls.Documentation = "https://cookiecutter-scverse-instance.readthedocs.io/"
 urls.Source = "https://github.com/scverse/cookiecutter-scverse-instance"
 urls.Home-page = "https://github.com/scverse/cookiecutter-scverse-instance"
