@@ -15,9 +15,10 @@ authors = [
 maintainers = [
     {name = "scverse community", email = "core-team@scverse.org"},
 ]
+# https://docs.pypi.org/project_metadata/#project-urls
 urls.Documentation = "https://cookiecutter-scverse-instance.readthedocs.io/"
 urls.Source = "https://github.com/scverse/cookiecutter-scverse-instance"
-urls.Home-page = "https://github.com/scverse/cookiecutter-scverse-instance"
+urls.Homepage = "https://github.com/scverse/cookiecutter-scverse-instance"
 dependencies = [
     "anndata",
     # for debug logging (referenced from the issue template)
