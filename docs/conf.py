@@ -37,7 +37,7 @@ needs_sphinx = "4.0"
 html_context = {
     "display_github": True,  # Integrate GitHub
     "github_user": "scverse",
-    "github_repo": "https://github.com/scverse/cookiecutter-scverse-instance",
+    "github_repo": "cookiecutter-scverse-instance",
     "github_version": "main",
     "conf_py_path": "/docs/",
 }
