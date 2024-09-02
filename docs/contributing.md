@@ -145,6 +145,7 @@ repository.
 
 ```bash
 hatch docs:build
+hatch docs:open
 ```
 
 <!-- Links -->
