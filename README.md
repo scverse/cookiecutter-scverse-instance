@@ -10,12 +10,13 @@ An example repo generated from the `cookiecutter-scverse` template. Feel free to
 
 ## Getting started
 
-Please refer to the [documentation][]. In particular, the [API documentation][].
+Please refer to the [documentation][],
+in particular, the [API documentation][].
 
 ## Installation
 
-You need to have Python 3.10 or newer installed on your system. If you don't have
-Python installed, we recommend installing [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge).
+You need to have Python 3.10 or newer installed on your system.
+If you don't have Python installed, we recommend installing [Mambaforge][].
 
 There are several alternative options to install cookiecutter-scverse-instance:
 
@@ -46,6 +47,7 @@ If you found a bug, please use the [issue tracker][].
 
 > t.b.a
 
+[mambaforge]: https://github.com/conda-forge/miniforge#mambaforge
 [scverse discourse]: https://discourse.scverse.org/
 [issue tracker]: https://github.com/scverse/cookiecutter-scverse-instance/issues
 [tests]: https://github.com/scverse/cookiecutter-scverse-instance/actions/workflows/test.yml
