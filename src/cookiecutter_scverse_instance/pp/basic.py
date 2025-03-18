@@ -9,7 +9,7 @@ if TYPE_CHECKING:
     from spatialdata import SpatialData
 
 
-ScverseDataStructures: TypeAlias = AnnData | MuData | SpatialData
+    ScverseDataStructures: TypeAlias = AnnData | MuData | SpatialData
 
 
 def basic_preproc(adata: AnnData) -> int:
