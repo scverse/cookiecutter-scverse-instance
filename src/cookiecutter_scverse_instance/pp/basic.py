@@ -1,13 +1,15 @@
 from collections.abc import Callable, Iterable
-from typing import Any, TypeVar
+from typing import Any, TYPE_CHECKING, TypeAlias
 
 import numpy as np
 from anndata import AnnData
 
-MuData = TypeVar("MuData")
-SpatialData = TypeVar("SpatialData")
+if TYPE_CHECKING:
+   from mudata import MuData
+   from spatialdata import SpatialData
 
-ScverseDataStructures = AnnData | MuData | SpatialData
+
+ScverseDataStructures: TypeAlias = AnnData | MuData | SpatialData
 
 
 def basic_preproc(adata: AnnData) -> int:
@@ -34,7 +36,7 @@ def elaborate_example(
     mudata_mod: str | None = "rna",  # Only specify defaults in the signature, not the docstring!
     sdata_table_key: str | None = "table1",
     max_items: int = 100,
-) -> list[Any]:
+) -> list[str]:
     """A method with a more complex docstring.
 
     This is where you add more details.
