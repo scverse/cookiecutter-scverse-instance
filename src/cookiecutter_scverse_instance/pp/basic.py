@@ -1,12 +1,12 @@
 from collections.abc import Callable, Iterable
-from typing import Any, TYPE_CHECKING, TypeAlias
+from typing import TYPE_CHECKING, Any, TypeAlias
 
 import numpy as np
 from anndata import AnnData
 
 if TYPE_CHECKING:
-   from mudata import MuData
-   from spatialdata import SpatialData
+    from mudata import MuData
+    from spatialdata import SpatialData
 
 
 ScverseDataStructures: TypeAlias = AnnData | MuData | SpatialData
