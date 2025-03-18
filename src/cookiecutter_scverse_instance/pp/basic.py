@@ -1,14 +1,13 @@
 from collections.abc import Callable, Iterable
-from typing import TYPE_CHECKING, Any, TypeAlias
+from typing import Any, TypeVar
 
 import numpy as np
 from anndata import AnnData
 
-if TYPE_CHECKING:
-    from mudata import MuData
-    from spatialdata import SpatialData
+MuData = TypeVar("MuData")
+SpatialData = TypeVar("SpatialData")
 
-    ScverseDataStructures: TypeAlias = AnnData | MuData | SpatialData
+ScverseDataStructures = AnnData | MuData | SpatialData
 
 
 def basic_preproc(adata: AnnData) -> int:
@@ -28,7 +27,7 @@ def basic_preproc(adata: AnnData) -> int:
 
 
 def elaborate_example(
-    items: Iterable["ScverseDataStructures"],
+    items: Iterable[ScverseDataStructures],
     transform: Callable[[Any], str],
     *,  # functions after the asterix are key word only arguments
     layer_key: str | None = None,
