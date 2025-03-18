@@ -28,7 +28,7 @@ def basic_preproc(adata: AnnData) -> int:
 
 
 def elaborate_example(
-    items: Iterable[ScverseDataStructures],
+    items: Iterable["ScverseDataStructures"],
     transform: Callable[[Any], str],
     *,  # functions after the asterix are key word only arguments
     layer_key: str | None = None,
