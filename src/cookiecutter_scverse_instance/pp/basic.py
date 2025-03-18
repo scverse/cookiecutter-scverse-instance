@@ -8,7 +8,6 @@ if TYPE_CHECKING:
     from mudata import MuData
     from spatialdata import SpatialData
 
-
     ScverseDataStructures: TypeAlias = AnnData | MuData | SpatialData
 
 
