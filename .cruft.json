@@ -1,6 +1,6 @@
 {
   "template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-  "commit": "39a8cd0dd5a0bdf7f99ada9eb2f67b9127ce2dbe",
+  "commit": "f6b52d74fc5717947aea48dc2da8967343ebad82",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -36,7 +36,7 @@
         "trim_blocks": true
       },
       "_template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-      "_commit": "39a8cd0dd5a0bdf7f99ada9eb2f67b9127ce2dbe"
+      "_commit": "f6b52d74fc5717947aea48dc2da8967343ebad82"
     }
   },
   "directory": null
