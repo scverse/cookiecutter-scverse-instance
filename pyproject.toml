@@ -48,9 +48,9 @@ optional-dependencies.doc = [
   "sphinxext-opengraph",
 ]
 optional-dependencies.test = [
-  "coverage",
+  "coverage>=7.10",
   "pytest",
-  "pytest-cov", # For VS Code’s coverage functionality
+  "pytest-cov",     # For VS Code’s coverage functionality
 ]
 # https://docs.pypi.org/project_metadata/#project-urls
 urls.Documentation = "https://cookiecutter-scverse-instance.readthedocs.io/"
@@ -136,6 +136,7 @@ addopts = [
 
 [tool.coverage.run]
 source = [ "cookiecutter_scverse_instance" ]
+patch = [ "subprocess" ]
 omit = [
   "**/test_*.py",
 ]
