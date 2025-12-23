@@ -96,3 +96,9 @@ def elaborate_example(
             break
 
     return result
+
+
+def another_uncovered_function():
+    x = 1 + 1
+    x = x ** 2
+    return x
