@@ -76,6 +76,7 @@ envs.hatch-test.matrix = [
 envs.hatch-test.overrides.matrix.deps.env-vars = [
   { key = "UV_PRERELEASE", value = "allow", if = [ "pre" ] },
 ]
+
 [tool.ruff]
 line-length = 120
 src = [ "src" ]
