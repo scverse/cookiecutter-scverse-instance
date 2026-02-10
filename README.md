@@ -6,7 +6,7 @@
 [badge-tests]: https://img.shields.io/github/actions/workflow/status/scverse/cookiecutter-scverse-instance/test.yaml?branch=main
 [badge-docs]: https://img.shields.io/readthedocs/cookiecutter-scverse-instance
 
-An example repo generated from the `cookiecutter-scverse` template. Feel free to look around this repo and check out the docs to find out if the template works for you!
+An example repo generated from the `cookiecutter-scverse` template.
 
 ## Getting started
 
