@@ -5,10 +5,7 @@ requires = [ "hatchling" ]
 [project]
 name = "cookiecutter-scverse-instance"
 version = "0.0.1"
-description = """\
-  An example repo generated from the `cookiecutter-scverse` template. Feel free to look around this repo and check out \
-  the docs to find out if the template works for you!\
-  """
+description = "An example repo generated from the `cookiecutter-scverse` template."
 readme = "README.md"
 license = { file = "LICENSE" }
 maintainers = [
@@ -76,7 +73,7 @@ envs.hatch-test.matrix = [
 ]
 # If the matrix variable `deps` is set to "pre",
 # set the environment variable `UV_PRERELEASE` to "allow".
-envs.hatch-test.overrides.matrix.deps.env-vars = [
+hatch-test.overrides.matrix.deps.env-vars = [
   { key = "UV_PRERELEASE", value = "allow", if = [ "pre" ] },
 ]
 

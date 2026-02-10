@@ -1,12 +1,12 @@
 {
   "template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-  "commit": "fcd5a336aa05c199d76fc82c18cdbd370e243c5a",
+  "commit": "8268ad818bc280e7bdf98ddde612ae5c6a4e335f",
   "checkout": null,
   "context": {
     "cookiecutter": {
       "project_name": "cookiecutter-scverse-instance",
       "package_name": "cookiecutter_scverse_instance",
-      "project_description": "An example repo generated from the `cookiecutter-scverse` template. Feel free to look around this repo and check out the docs to find out if the template works for you!",
+      "project_description": "An example repo generated from the `cookiecutter-scverse` template.",
       "author_full_name": "scverse community",
       "author_email": "core-team@scverse.org",
       "github_user": "scverse",
@@ -36,7 +36,7 @@
         "trim_blocks": true
       },
       "_template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-      "_commit": "fcd5a336aa05c199d76fc82c18cdbd370e243c5a"
+      "_commit": "8268ad818bc280e7bdf98ddde612ae5c6a4e335f"
     }
   },
   "directory": null
