@@ -131,6 +131,7 @@ run.source = [ "cookiecutter_scverse_instance" ]
 
 [tool.cruft]
 skip = [
+  ".git",
   "tests",
   "src/**/__init__.py",
   "src/**/basic.py",
