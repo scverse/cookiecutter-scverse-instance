@@ -4,7 +4,7 @@
 [![Documentation][badge-docs]][documentation]
 
 [badge-tests]: https://img.shields.io/github/actions/workflow/status/scverse/cookiecutter-scverse-instance/test.yaml?branch=main
-[badge-docs]: https://img.shields.io/readthedocs/cookiecutter-scverse-instance
+[badge-docs]: https://app.readthedocs.org/projects/cookiecutter-scverse-instance/badge/?version=latest
 
 An example repo generated from the `cookiecutter-scverse` template.
 
