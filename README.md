@@ -4,7 +4,7 @@
 [![Documentation][badge-docs]][documentation]
 
 [badge-tests]: https://img.shields.io/github/actions/workflow/status/scverse/cookiecutter-scverse-instance/test.yaml?branch=main
-[badge-docs]: https://img.shields.io/readthedocs/cookiecutter-scverse-instance
+[badge-docs]: https://app.readthedocs.org/projects/cookiecutter-scverse-instance/badge/
 
 An example repo generated from the `cookiecutter-scverse` template.
 
@@ -52,6 +52,6 @@ If you found a bug, please use the [issue tracker][].
 [issue tracker]: https://github.com/scverse/cookiecutter-scverse-instance/issues
 [tests]: https://github.com/scverse/cookiecutter-scverse-instance/actions/workflows/test.yaml
 [documentation]: https://cookiecutter-scverse-instance.readthedocs.io
-[changelog]: https://cookiecutter-scverse-instance.readthedocs.io/en/latest/changelog.html
-[api documentation]: https://cookiecutter-scverse-instance.readthedocs.io/en/latest/api.html
+[changelog]: https://cookiecutter-scverse-instance.readthedocs.io/page/changelog.html
+[api documentation]: https://cookiecutter-scverse-instance.readthedocs.io/page/api.html
 [pypi]: https://pypi.org/project/cookiecutter-scverse-instance
