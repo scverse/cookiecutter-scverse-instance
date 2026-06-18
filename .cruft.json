@@ -1,6 +1,6 @@
 {
   "template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-  "commit": "19cf7596149bdeb1b8354aa3947c862f34d50b58",
+  "commit": "cbafcbbeff2bbca28611c051521a34f6e0dd17b3",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -13,6 +13,7 @@
       "github_repo": "cookiecutter-scverse-instance",
       "license": "BSD 3-Clause License",
       "ide_integration": true,
+      "issue_categorization": "labels",
       "_copy_without_render": [
         ".github/workflows/build.yaml",
         ".github/workflows/test.yaml",
@@ -36,7 +37,7 @@
         "trim_blocks": true
       },
       "_template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-      "_commit": "19cf7596149bdeb1b8354aa3947c862f34d50b58"
+      "_commit": "cbafcbbeff2bbca28611c051521a34f6e0dd17b3"
     }
   },
   "directory": null
