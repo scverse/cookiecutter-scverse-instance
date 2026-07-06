@@ -43,14 +43,14 @@ There are several alternative options to install cookiecutter-scverse-instance:
 1. Install the latest development version:
 
    ```bash
-   uv add git+https://github.com/scverse/cookiecutter-scverse-instance.git@main
+   uv add git+https://github.com/scverse/cookiecutter-scverse-instance.git
    ```
 
    <details>
    <summary>If you prefer using `pip`:</summary>
 
    ```bash
-   pip install git+https://github.com/scverse/cookiecutter-scverse-instance.git@main
+   pip install git+https://github.com/scverse/cookiecutter-scverse-instance.git
    ```
 
    </details>
