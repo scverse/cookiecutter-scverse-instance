@@ -23,37 +23,37 @@ There are several alternative options to install cookiecutter-scverse-instance:
 <!--
 1. Install the latest release of `cookiecutter-scverse-instance` from [PyPI][]:
 
-We recommend using [uv][] to add `cookiecutter-scverse-instance` to your project's virtual environment:
+   We recommend using [uv][] to add `cookiecutter-scverse-instance` to your project's virtual environment:
 
-```bash
-uv add cookiecutter-scverse-instance
-```
+   ```bash
+   uv add cookiecutter-scverse-instance
+   ```
 
-<details>
-<summary>If you prefer using `pip`:</summary>
+   <details>
+   <summary>If you prefer using `pip`:</summary>
 
-```bash
-pip install cookiecutter-scverse-instance
-```
+   ```bash
+   pip install cookiecutter-scverse-instance
+   ```
 
-</details>
+   </details>`
 
 -->
 
 1. Install the latest development version:
 
-```bash
-uv add git+https://github.com/scverse/cookiecutter-scverse-instance.git@main
-```
+   ```bash
+   uv add git+https://github.com/scverse/cookiecutter-scverse-instance.git@main
+   ```
 
-<details>
-<summary>If you prefer using `pip`:</summary>
+   <details>
+   <summary>If you prefer using `pip`:</summary>
 
-```bash
-pip install git+https://github.com/scverse/cookiecutter-scverse-instance.git@main
-```
+   ```bash
+   pip install git+https://github.com/scverse/cookiecutter-scverse-instance.git@main
+   ```
 
-</details>
+   </details>
 
 ## Release notes
 
