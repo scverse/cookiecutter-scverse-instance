@@ -115,6 +115,9 @@ lint.per-file-ignores."docs/*" = [ "I" ]
 lint.per-file-ignores."tests/*" = [ "D" ]
 lint.pydocstyle.convention = "numpy"
 
+[tool.mypy]
+ignore_missing_imports = true
+
 [tool.pytest]
 addopts = [
   "--import-mode=importlib", # allow using test files with same name
