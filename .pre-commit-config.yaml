@@ -29,10 +29,10 @@ repos:
     hooks:
       - id: mypy
         name: mypy
-        entry: uv run mypy src
+        entry: uv run mypy src tests
         language: system
         types: [python]
-        files: ^src/
+        files: ^(src|tests)/
         require_serial: true
         pass_filenames: false
   - repo: https://github.com/pre-commit/pre-commit-hooks

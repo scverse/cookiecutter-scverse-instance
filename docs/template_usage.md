@@ -235,7 +235,7 @@ The following pre-commit hooks are for errors and inconsistencies:
     - [Ruff-specific rules](https://beta.ruff.rs/docs/rules/#ruff-specific-rules-ruf) (rule category: `RUF`):
         - `RUF100`: remove unnecessary `# noqa` comments ()
 - [mypy][]:
-  static type checker that verifies the type annotations of the package under `src/`.
+  static type checker that verifies the type annotations of the package under `src/` and the `tests/`.
   Type hints are optional: mypy only checks functions that carry annotations, so you can adopt typing gradually.
 
 ### How to add or remove pre-commit checks
@@ -305,11 +305,11 @@ add it to Ruff’s [`external = [...]`][ruff-external] setting to prevent `RUF10
 
 #### mypy
 
-This template type-checks the package under `src/` with [mypy][], configured through the `[tool.mypy]` entry in the `pyproject.toml`.
+This template type-checks the package under `src/` and the `tests/` with [mypy][], configured through the `[tool.mypy]` entry in the `pyproject.toml`.
 Unlike the other hooks, `mypy` runs as `uv run mypy` inside your project environment instead of an isolated one, so it checks your code against the real types of your installed dependencies (such as anndata) without duplicating them in the hook configuration.
 Because it relies on your environment, this hook is skipped on [pre-commit.ci][] (via the `ci.skip` setting) and instead runs locally and in the GitHub Actions test workflow.
 Type hints are optional: mypy only checks functions that carry annotations, so untyped code is left untouched and you can adopt typing gradually.
-To type-check other paths such as `tests/`, adjust the `entry` and `files` of the `mypy` hook in the `.pre-commit-config.yaml`.
+To cover other paths, adjust the `entry` and `files` of the `mypy` hook in the `.pre-commit-config.yaml`.
 To silence a specific line, append a `# type: ignore[<error-code>]` comment; to opt out of type checking entirely, remove the `mypy` hook.
 
 [biome]: https://biomejs.dev/
