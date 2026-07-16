@@ -33,6 +33,7 @@ urls.Source = "https://github.com/scverse/cookiecutter-scverse-instance"
 
 [dependency-groups]
 dev = [
+  "mypy",
   "prek",
   "twine>=4.0.2",
 ]
