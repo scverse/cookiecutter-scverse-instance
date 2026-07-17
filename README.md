@@ -18,21 +18,31 @@ in particular, the [API documentation][].
 You need to have Python 3.12 or newer installed on your system.
 If you don't have Python installed, we recommend installing [uv][].
 
-There are several alternative options to install cookiecutter-scverse-instance:
+We recommend managing dependencies in project-specific virtual environments to avoid dependency conflicts.
+This is most convenient using package managers such as [uv][].
+Choose from the options below to install cookiecutter-scverse-instance:
 
 <!--
-1) Install the latest release of `cookiecutter-scverse-instance` from [PyPI][]:
+1. Add the latest release of `cookiecutter-scverse-instance` from [PyPI][] to your `uv` project:
 
-```bash
-pip install cookiecutter-scverse-instance
-```
+   ```bash
+   uv add cookiecutter-scverse-instance
+   ```
+
+1. Install the latest release into a [standard virtual environment][venv]:
+
+   ```bash
+   (after activating your venv)
+   pip install cookiecutter-scverse-instance
+   ```
+
 -->
 
 1. Install the latest development version:
 
-```bash
-pip install git+https://github.com/scverse/cookiecutter-scverse-instance.git@main
-```
+   ```bash
+   pip install git+https://github.com/scverse/cookiecutter-scverse-instance.git  # (or `uv add`)
+   ```
 
 ## Release notes
 
@@ -55,3 +65,4 @@ If you found a bug, please use the [issue tracker][].
 [changelog]: https://cookiecutter-scverse-instance.readthedocs.io/page/changelog.html
 [api documentation]: https://cookiecutter-scverse-instance.readthedocs.io/page/api.html
 [pypi]: https://pypi.org/project/cookiecutter-scverse-instance
+[venv]: https://docs.python.org/3/tutorial/venv.html
