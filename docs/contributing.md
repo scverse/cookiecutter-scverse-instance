@@ -153,10 +153,12 @@ We recommend running them with [prek][], a fast, drop-in replacement for `pre-co
 On every commit, the checks will either automatically fix issues with the code, or raise an error message.
 See [pre-commit checks](template_usage.md#pre-commit-checks) for a full list of checks enabled for this repository.
 
-To enable the checks locally, install [prek][] (e.g. with `uv tool install prek`) and run
+To enable the checks locally, run
 
 ```bash
-prek install
+hatch run hatch-static-analysis:prek install
+# or
+uvx prek install
 ```
 
 in the root of the repository.
