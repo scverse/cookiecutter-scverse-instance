@@ -138,11 +138,11 @@ strict = true
 testpaths = [ "tests" ]
 
 [tool.coverage]
+run.source = [ "cookiecutter_scverse_instance" ]
 run.omit = [
   "**/test_*.py",
 ]
 run.patch = [ "subprocess" ]
-run.source = [ "cookiecutter_scverse_instance" ]
 
 [tool.cruft]
 skip = [
