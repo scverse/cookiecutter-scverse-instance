@@ -1,6 +1,6 @@
 {
   "template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-  "commit": "855a55b40c1b6e67fa4dffb5b38caec357c0dad4",
+  "commit": "2aaa2f7479eec5dbf268b3c3015bbe09535d30cb",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -32,12 +32,13 @@
         "tests/**"
       ],
       "_render_devdocs": true,
+      "_new_lines": "\n",
       "_jinja2_env_vars": {
         "lstrip_blocks": true,
         "trim_blocks": true
       },
       "_template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-      "_commit": "855a55b40c1b6e67fa4dffb5b38caec357c0dad4"
+      "_commit": "2aaa2f7479eec5dbf268b3c3015bbe09535d30cb"
     }
   },
   "directory": null
