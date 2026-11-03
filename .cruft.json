@@ -1,6 +1,6 @@
 {
   "template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-  "commit": "f9a0877cd52139283647d8ad6859f52eebc49b17",
+  "commit": "3837d58d7aecf313bb728758eb57f331062a7d92",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -24,6 +24,7 @@
         "LICENSE",
         "README.md",
         "docs/api.md",
+        "docs/api/**",
         "docs/citation.md",
         "docs/index.md",
         "docs/installation.md",
@@ -40,7 +41,7 @@
         "trim_blocks": true
       },
       "_template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-      "_commit": "f9a0877cd52139283647d8ad6859f52eebc49b17"
+      "_commit": "3837d58d7aecf313bb728758eb57f331062a7d92"
     }
   },
   "directory": null
