@@ -1,6 +1,6 @@
 {
   "template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-  "commit": "fa30bbad336794ae4e3c72015ef0a83ed94f0d49",
+  "commit": "3cf6a432c391c7b30cc6d5a967c6155312919009",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -24,8 +24,12 @@
         "LICENSE",
         "README.md",
         "docs/api.md",
+        "docs/api/**",
+        "docs/citation.md",
         "docs/index.md",
+        "docs/installation.md",
         "docs/notebooks/example.ipynb",
+        "docs/quickstart.md",
         "docs/references.bib",
         "docs/references.md",
         "src/**",
@@ -37,7 +41,7 @@
         "trim_blocks": true
       },
       "_template": "/home/runner/work/cookiecutter-scverse/cookiecutter-scverse",
-      "_commit": "fa30bbad336794ae4e3c72015ef0a83ed94f0d49"
+      "_commit": "3cf6a432c391c7b30cc6d5a967c6155312919009"
     }
   },
   "directory": null
