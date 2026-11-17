@@ -27,8 +27,10 @@ You can follow the instructions directly on [github quickstart guide][].
 Since `cruft` already populated the local repository of your project with all the necessary files,
 we suggest to _NOT_ initialize the repository with a `README.md` file or `.gitignore`, because you might encounter git conflicts on your first push.
 
+
 Now that your new project repository has been created on GitHub at `https://github.com/<your-github-username>/<your-project>`, you can push it to GitHub.
 A first commit should already have been created by `cruft` when you created the project.
+
 
 ```bash
 # update the `origin` of your local repo with the remote GitHub link
@@ -167,7 +169,6 @@ will trigger the release Github workflow that automatically builds and uploads t
 
 For this to work, you'll need to setup GitHub as a [trusted publisher][] on PyPI.
 To set this up, login to [PyPI][], and proceed depending on whether you already have your project on there or not:
-
 - If yes, navigate to the project. In the left sidebar, choose "Publishing", then proceed to add the repository details.
 - If not, go to your [PyPI publishing settings][] and fill out the “Add a new pending publisher” form.
 
@@ -344,6 +345,7 @@ To silence a specific line, append a `# type: ignore[<error-code>]` comment; to 
 [ruff-config]: https://docs.astral.sh/ruff/configuration/
 [ruff-error-suppression]: https://docs.astral.sh/ruff/linter/#error-suppression
 [ruff-external]: https://docs.astral.sh/ruff/settings/#external
+
 
 ## API design
 
