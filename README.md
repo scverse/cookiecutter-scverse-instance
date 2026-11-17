@@ -36,6 +36,8 @@ Choose from the options below to install cookiecutter-scverse-instance:
    pip install cookiecutter-scverse-instance
    ```
 
+[pypi]: https://pypi.org/project/cookiecutter-scverse-instance
+[venv]: https://docs.python.org/3/tutorial/venv.html
 -->
 
 1. Install the latest development version:
@@ -65,5 +67,3 @@ If you found a bug, please use the [issue tracker][].
 [documentation]: https://cookiecutter-scverse-instance.readthedocs.io
 [changelog]: https://cookiecutter-scverse-instance.readthedocs.io/page/changelog.html
 [api documentation]: https://cookiecutter-scverse-instance.readthedocs.io/page/api.html
-[pypi]: https://pypi.org/project/cookiecutter-scverse-instance
-[venv]: https://docs.python.org/3/tutorial/venv.html

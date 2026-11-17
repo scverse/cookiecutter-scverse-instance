@@ -1,7 +1,7 @@
 # Installation
 
 cookiecutter-scverse-instance needs Python 3.12 or newer.
-We recommend [uv][], which installs Python for you and keeps each project's dependencies in their own virtual environment.
+We recommend [uv][], which installs Python for you and keeps each project’s dependencies in their own virtual environment.
 
 <!--
 ## PyPI
@@ -28,6 +28,7 @@ pip install cookiecutter-scverse-instance
 ::::
 :::::
 
+[pypi]: https://pypi.org/project/cookiecutter-scverse-instance
 -->
 
 ## Development version
@@ -41,7 +42,6 @@ Install the latest development version from GitHub:
 ```bash
 uv add git+https://github.com/scverse/cookiecutter-scverse-instance.git
 ```
-
 ::::
 
 ::::{tab-item} Pip
@@ -50,11 +50,9 @@ uv add git+https://github.com/scverse/cookiecutter-scverse-instance.git
 ```bash
 pip install git+https://github.com/scverse/cookiecutter-scverse-instance.git
 ```
-
 ::::
 :::::
 
 To work on cookiecutter-scverse-instance itself, see {doc}`contributing`.
 
 [uv]: https://docs.astral.sh/uv/
-[pypi]: https://pypi.org/project/cookiecutter-scverse-instance
