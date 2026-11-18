@@ -33,7 +33,6 @@ If you found a bug, please use the [issue tracker][].
 
 > t.b.a
 
-[uv]: https://github.com/astral-sh/uv
 [scverse discourse]: https://discourse.scverse.org/
 [issue tracker]: https://github.com/scverse/cookiecutter-scverse-instance/issues
 [tests]: https://github.com/scverse/cookiecutter-scverse-instance/actions/workflows/test.yaml
