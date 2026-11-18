@@ -41,5 +41,3 @@ If you found a bug, please use the [issue tracker][].
 [installation]: https://cookiecutter-scverse-instance.readthedocs.io/page/installation.html
 [changelog]: https://cookiecutter-scverse-instance.readthedocs.io/page/changelog.html
 [api documentation]: https://cookiecutter-scverse-instance.readthedocs.io/page/api.html
-[pypi]: https://pypi.org/project/cookiecutter-scverse-instance
-[venv]: https://docs.python.org/3/tutorial/venv.html
