@@ -15,36 +15,10 @@ in particular, the [API documentation][].
 
 ## Installation
 
-You need to have Python 3.12 or newer installed on your system.
-If you don’t have Python installed, we recommend installing [uv][].
+<!-- TODO  - replace dev version with PyPI version once released -->
+Add `git+https://github.com/scverse/cookiecutter-scverse-instance.git` to your dependencies.
 
-We recommend managing dependencies in project-specific virtual environments to avoid dependency conflicts.
-This is most convenient using package managers such as [uv][].
-Choose from the options below to install cookiecutter-scverse-instance:
-
-<!--
-1. Add the latest release of `cookiecutter-scverse-instance` from [PyPI][] to your `uv` project:
-
-   ```bash
-   uv add cookiecutter-scverse-instance
-   ```
-
-1. Install the latest release into a [standard virtual environment][venv]:
-
-   ```bash
-   (after activating your venv)
-   pip install cookiecutter-scverse-instance
-   ```
-
-[pypi]: https://pypi.org/project/cookiecutter-scverse-instance
-[venv]: https://docs.python.org/3/tutorial/venv.html
--->
-
-1. Install the latest development version:
-
-   ```bash
-   pip install git+https://github.com/scverse/cookiecutter-scverse-instance.git  # (or `uv add`)
-   ```
+For more details, see the [installation][] section in the docs.
 
 ## Release notes
 
@@ -59,10 +33,10 @@ If you found a bug, please use the [issue tracker][].
 
 > t.b.a
 
-[uv]: https://github.com/astral-sh/uv
 [scverse discourse]: https://discourse.scverse.org/
 [issue tracker]: https://github.com/scverse/cookiecutter-scverse-instance/issues
 [tests]: https://github.com/scverse/cookiecutter-scverse-instance/actions/workflows/test.yaml
 [documentation]: https://cookiecutter-scverse-instance.readthedocs.io
+[installation]: https://cookiecutter-scverse-instance.readthedocs.io/page/installation.html
 [changelog]: https://cookiecutter-scverse-instance.readthedocs.io/page/changelog.html
 [api documentation]: https://cookiecutter-scverse-instance.readthedocs.io/page/api.html
